@@ -4,14 +4,26 @@ dist/
 # generated types
 .astro/
 
+# generated images
+public/images/
+src/assets/manifest.json
+
 # dependencies
 node_modules/
+
+# turborepo
+.turbo 
 
 # logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# IDE related files
+.idea/
+.vscode/
+.history/
 
 # environment variables
 .env
