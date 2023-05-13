@@ -1,11 +1,12 @@
 import { Typography } from "../../components/Typography";
 import profilePic from "../../assets/profile-pic@x1.jpg";
 import { Header } from "./Header";
+import "../../styles/globals.css";
 
 export function Hero() {
   return (
     <div>
-      <section className="flex h-full w-full flex-col items-center justify-center">
+      <section className="flex h-full w-full flex-col items-center justify-center hero-bg bg-cover bg-top bg-no-repeat">
         <Header />
 
         <div className="relative top-5 flex h-[575px] max-w-[375px] flex-col items-center justify-center rounded-md border border-gray-400 bg-white  p-2 px-3 transition duration-500 hover:drop-shadow-xl lg:top-8">

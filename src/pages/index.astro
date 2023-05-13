@@ -4,15 +4,11 @@ import { About } from './components/About';
 import { Footer } from './components/Footer';
 import { Hero } from './components/Hero';
 import { Projects } from './components/Projects';
-import { BackgroundImage } from "astro-imagetools/components";
 import "@fontsource/source-code-pro"
 ---
 
 <Layout>
-	<BackgroundImage src="/images/hero-bg.jpg">
-		<Hero />
-	</BackgroundImage>
-
+	<Hero />
 	<About />
 	<Projects />
 	<Footer />
