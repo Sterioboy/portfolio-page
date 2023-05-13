@@ -30,9 +30,7 @@ module.exports = {
       fontFamily: {
         sans: ["Source Code Pro", ...defaultTheme.fontFamily.sans],
       },
-      backgroundImage: () => ({
-        "hero-image": "url('/src/assets/hero-bg@1x.jpg')",
-      }),
+      backgroundImage: { "hero-image": "url('images/hero-bg@1x.jpg')" },
     },
   },
 
