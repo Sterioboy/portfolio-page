@@ -5,7 +5,7 @@ import { Header } from "./Header";
 export function Hero() {
   return (
     <div>
-      <section className="flex h-full w-full flex-col items-center justify-center bg-[url('images/hero-bg@1x.jpg')] bg-cover bg-top bg-no-repeat">
+      <section className="flex h-full w-full flex-col items-center justify-center bg-[url('images/hero-bg.jpg')] bg-cover bg-top bg-no-repeat">
         <Header />
 
         <div className="relative top-5 flex h-[575px] max-w-[375px] flex-col items-center justify-center rounded-md border border-gray-400 bg-white  p-2 px-3 transition duration-500 hover:drop-shadow-xl lg:top-8">
