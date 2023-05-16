@@ -6,15 +6,15 @@ import "../../styles/globals.css";
 export function Hero() {
   return (
     <div>
-      <section className="flex h-full w-full flex-col items-center justify-center hero-bg bg-cover bg-top bg-no-repeat">
+      <section className="hero-bg flex h-full w-full flex-col items-center justify-center bg-cover bg-top bg-no-repeat">
         <Header />
 
-        <div className="relative top-5 flex h-[575px] max-w-[375px] flex-col items-center justify-center rounded-md border border-gray-400 bg-white  p-2 px-3 transition duration-500 hover:drop-shadow-xl lg:top-8">
+        <div className="relative top-5 flex h-[575px] max-w-[375px] flex-col items-center justify-center rounded-md border border-gray-400 bg-white  p-2 px-3 transition duration-500 hover:drop-shadow-md lg:top-8">
           <div className="mb-2">
             <img
               src={profilePic.src}
               alt="Profile Image"
-              className="h-[300px] w-[300px] rounded-full p-1 ring ring-[#cbc7c7] hover:ring-4"
+              className="h-[250px] w-[250px] rounded-full p-1 ring ring-[#cbc7c7]"
             />
           </div>
 

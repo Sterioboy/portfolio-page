@@ -1,6 +1,3 @@
-import ecommercePic from "../../assets/e-commerce@x1.jpg";
-import face2unePic from "../../assets/face2une@x1.jpg";
-import studentInvestPic from "../../assets/student-invest@x1.jpg";
 import { Typography } from "../../components/Typography";
 import graphQLIcon from "../../assets/graphql-icon.svg";
 import nextJSIcon from "../../assets/nextjs-icon.svg";
@@ -27,9 +24,8 @@ export function Projects() {
           <div className="mb-3 max-w-sm rounded-lg border border-gray-200 bg-white shadow lg:mb-0 lg:mr-2">
             <img
               className="h-[275px] rounded-t-lg"
-              src={ecommercePic.src}
+              src="https://res.cloudinary.com/do6yo1hx8/image/upload/h_275/f_auto,q_auto/v1684246300/e-commerce_x1_yvblig.jpg"
               alt="E-commerce project"
-              width="382px"
             />
 
             <div className="flex h-[460px] flex-col justify-between p-3">
@@ -98,9 +94,8 @@ export function Projects() {
           <div className="mb-3 max-w-sm rounded-lg border border-gray-200 bg-white shadow lg:mb-0 lg:mr-2">
             <img
               className="h-[275px] rounded-t-lg"
-              src={face2unePic.src}
+              src="https://res.cloudinary.com/do6yo1hx8/image/upload/h_275/f_auto,q_auto/v1684246186/face2une_x1_ztgn3s.jpg"
               alt="Face2Une CRM project"
-              width="382px"
             />
 
             <div className="flex h-[460px] flex-col justify-between p-3">
@@ -165,9 +160,8 @@ export function Projects() {
           <div className="max-w-sm rounded-lg border border-gray-200 bg-white shadow">
             <img
               className="h-[275px] rounded-t-lg"
-              src={studentInvestPic.src}
+              src="https://res.cloudinary.com/do6yo1hx8/image/upload/h_275/f_auto,q_auto/v1684246299/student-invest_x1_raf30c.jpg"
               alt="Student Invest project"
-              width="382px"
             />
 
             <div className="flex h-[460px] flex-col justify-between p-3">
