@@ -23,12 +23,13 @@ export function Projects() {
           Projects
         </Typography>
 
-        <div className="grid md:grid-rows-2 md:grid-cols-2 gap-2 lg:flex flex-col lg:flex-row lg:justify-between">
-          <div className="mb-3 lg:mr-2 max-w-sm rounded-lg border border-gray-200 bg-white shadow lg:mb-0">
+        <div className="grid flex-col gap-2 md:grid-cols-2 md:grid-rows-2 lg:flex lg:flex-row lg:justify-around">
+          <div className="mb-3 max-w-sm rounded-lg border border-gray-200 bg-white shadow lg:mb-0 lg:mr-2">
             <img
               className="h-[275px] rounded-t-lg"
               src={ecommercePic.src}
               alt="E-commerce project"
+              width="382px"
             />
 
             <div className="flex h-[460px] flex-col justify-between p-3">
@@ -94,11 +95,12 @@ export function Projects() {
             </div>
           </div>
 
-          <div className="mb-3 lg:mr-2 max-w-sm rounded-lg border border-gray-200 bg-white shadow lg:mb-0">
+          <div className="mb-3 max-w-sm rounded-lg border border-gray-200 bg-white shadow lg:mb-0 lg:mr-2">
             <img
               className="h-[275px] rounded-t-lg"
               src={face2unePic.src}
               alt="Face2Une CRM project"
+              width="382px"
             />
 
             <div className="flex h-[460px] flex-col justify-between p-3">
@@ -165,6 +167,7 @@ export function Projects() {
               className="h-[275px] rounded-t-lg"
               src={studentInvestPic.src}
               alt="Student Invest project"
+              width="382px"
             />
 
             <div className="flex h-[460px] flex-col justify-between p-3">
