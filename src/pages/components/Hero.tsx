@@ -6,7 +6,7 @@ import "../../styles/globals.css";
 export function Hero() {
   return (
     <div>
-      <section className="hero-bg flex h-full w-full flex-col items-center justify-center bg-cover bg-top bg-no-repeat">
+      <section className="hero-bg flex h-full w-full flex-col items-center justify-center bg-cover bg-bottom bg-no-repeat">
         <Header />
 
         <div className="relative top-5 flex h-[575px] max-w-[375px] flex-col items-center justify-center rounded-md border border-gray-400 bg-white  p-2 px-3 transition duration-500 hover:drop-shadow-md lg:top-8">
