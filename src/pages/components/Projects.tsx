@@ -17,7 +17,7 @@ export function Projects() {
           size="lg"
           className="mb-[24px] text-start font-bold text-gray-900"
         >
-          Projects
+          Personal Projects
         </Typography>
 
         <div className="grid flex-col gap-2 md:grid-cols-2 md:grid-rows-2 lg:flex lg:flex-row lg:justify-around">
