@@ -14,7 +14,7 @@ export function Hero() {
             <img
               src={profilePic.src}
               alt="Profile Image"
-              className="h-[250px] w-[250px] rounded-full p-1 ring ring-[#cbc7c7]"
+              className="h-[250px] w-[250px] rounded-full p-1 ring-2 ring-[#cbc7c7]"
             />
           </div>
 
