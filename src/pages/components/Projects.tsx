@@ -7,6 +7,8 @@ import supaBaseIcon from "../../assets/supabase-icon.svg";
 import expressIcon from "../../assets/expressjs-icon.svg";
 import postgresIcon from "../../assets/postgresql-icon.svg";
 import nestIcon from "../../assets/nestjs-icon.svg";
+import tonIcon from "../../assets/ton-icon.svg";
+import strapiIcon from "../../assets/strapi-icon.svg";
 
 export function Projects() {
   return (
@@ -17,10 +19,77 @@ export function Projects() {
           size="lg"
           className="mb-[24px] text-start font-bold text-gray-900"
         >
-          Personal Projects
+          Projects
         </Typography>
 
-        <div className="grid flex-col gap-2 md:grid-cols-2 md:grid-rows-2 lg:flex lg:flex-row lg:justify-around">
+        <div className="grid flex-col gap-2 md:grid-cols-2 md:grid-rows-2 lg:flex lg:flex-row lg:flex-wrap lg:justify-around">
+          <div className="mb-3 max-w-sm rounded-lg border border-gray-200 bg-white shadow lg:mb-0 lg:mr-2">
+            <img
+              className="h-[275px] rounded-t-lg object-fill"
+              src="https://res.cloudinary.com/do6yo1hx8/image/upload/v1705399939/Tontune_Banner_jthb6a.png"
+              alt="Tontune"
+            />
+
+            <div className="flex h-[460px] flex-col justify-between p-3">
+              <div>
+                <Typography
+                  as="h3"
+                  size="md"
+                  className="mb-[12px] text-start font-bold text-gray-900"
+                >
+                  Tontune (Founder)
+                </Typography>
+                <Typography
+                  as="p"
+                  size="base"
+                  className="mb-2 font-light text-gray-500"
+                >
+                  Tontune is an innovative music streaming platform that
+                  integrates the cutting-edge technology of blockchain to
+                  transform the way artists connect with their audience and
+                  monetize their music.
+                </Typography>
+
+                <div className="mb-2 flex h-[50px] justify-start">
+                  <img
+                    src={strapiIcon.src}
+                    alt="Strapi Icon"
+                    className="mr-2"
+                  />
+                  <img src={tonIcon.src} alt="TON Icon" className="mr-2" />
+                  <img src={reactIcon.src} alt="React Icon" />
+                </div>
+              </div>
+
+              <a
+                href="https://tontune.xyz/"
+                className="text-sm mt-3 w-[200px]"
+                target="_blank"
+                rel="noopener"
+              >
+                <button
+                  type="button"
+                  className="flex w-full items-center rounded-lg bg-blue-700 px-5 py-1 font-medium text-white hover:bg-blue-800 focus:outline-none"
+                >
+                  Landing
+                  <svg
+                    aria-hidden="true"
+                    className="-mr-1 ml-2 h-2 w-2"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </a>
+            </div>
+          </div>
+
           <div className="mb-3 max-w-sm rounded-lg border border-gray-200 bg-white shadow lg:mb-0 lg:mr-2">
             <img
               className="h-[275px] rounded-t-lg"
