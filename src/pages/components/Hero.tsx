@@ -14,7 +14,7 @@ export function Hero() {
             <img
               src={profilePic.src}
               alt="Profile Image"
-              className="h-[250px] w-[250px] rounded-full p-1 ring-2 ring-[#cbc7c7]"
+              className="h-[275px] w-[250px] rounded-full object-cover object-center p-1 ring-2 ring-[#cbc7c7]"
             />
           </div>
 
@@ -29,14 +29,8 @@ export function Hero() {
             Full Stack Developer
           </Typography>
 
-          <hr className="bg-black-500 my-1 w-full border border-black" />
-
-          <Typography as="h3" size="base" className="text-center text-black">
-            Toronto, CA | Moscow, RU
-          </Typography>
-
           <a
-            href="https://drive.google.com/file/d/1hHKN3PVmuA2tzNWgZe0hbWE-yLuNDLep/view?usp=sharing"
+            href="https://drive.google.com/file/d/1gDwyIWzdjDneEqtnazo8s3uR40Si3DCP/view?usp=sharing"
             target="_blank"
             rel="noopener"
             className="text-sm mt-3"

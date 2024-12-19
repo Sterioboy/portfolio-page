@@ -9,6 +9,8 @@ import postgresIcon from "../../assets/postgresql-icon.svg";
 import nestIcon from "../../assets/nestjs-icon.svg";
 import tonIcon from "../../assets/ton-icon.svg";
 import strapiIcon from "../../assets/strapi-icon.svg";
+import metatune from "../../assets/meta-tune@2x.png";
+import hundred2one from "../../assets/hundred-2-one@2x.png";
 
 export function Projects() {
   return (
@@ -44,8 +46,17 @@ export function Projects() {
                   size="base"
                   className="mb-2 font-light text-gray-500"
                 >
-                  Tontune is an innovative music streaming platform that
-                  integrates the cutting-edge technology of blockchain to
+                  <a
+                    href="https://dorahacks.io/buidl/11413"
+                    className="font-bold text-gray-900 underline hover:text-blue-700"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    The Open League Hackathon Semi Finalist
+                  </a>
+                  <br />
+                  <br />
+                  Music streaming platform that integrates the TON blockchain to
                   transform the way artists connect with their audience and
                   monetize their music.
                 </Typography>
@@ -62,7 +73,7 @@ export function Projects() {
               </div>
 
               <a
-                href="https://tontune.xyz/"
+                href="https://dorahacks.io/buidl/11413"
                 className="text-sm mt-3 w-[200px]"
                 target="_blank"
                 rel="noopener"
@@ -71,7 +82,7 @@ export function Projects() {
                   type="button"
                   className="flex w-full items-center rounded-lg bg-blue-700 px-5 py-1 font-medium text-white hover:bg-blue-800 focus:outline-none"
                 >
-                  Landing
+                  Project
                   <svg
                     aria-hidden="true"
                     className="-mr-1 ml-2 h-2 w-2"
@@ -91,11 +102,13 @@ export function Projects() {
           </div>
 
           <div className="mb-3 max-w-sm rounded-lg border border-gray-200 bg-white shadow lg:mb-0 lg:mr-2">
-            <img
-              className="h-[275px] rounded-t-lg"
-              src="https://res.cloudinary.com/do6yo1hx8/image/upload/h_275/f_auto,q_auto/v1684246300/e-commerce_x1_yvblig.jpg"
-              alt="E-commerce project"
-            />
+            <div className="flex h-[275px] items-center justify-center">
+              <img
+                className="h-[275px] rounded-t-lg object-cover object-center"
+                src={metatune.src}
+                alt="MetaTune"
+              />
+            </div>
 
             <div className="flex h-[460px] flex-col justify-between p-3">
               <div>
@@ -104,16 +117,25 @@ export function Projects() {
                   size="md"
                   className="mb-[12px] text-start font-bold text-gray-900"
                 >
-                  eCommerce Website
+                  MetaTune
                 </Typography>
                 <Typography
                   as="p"
                   size="base"
                   className="mb-2 font-light text-gray-500"
                 >
-                  Modern solutions, delivering seamless shopping experiences
-                  with back-end systems to support inventory, user management,
-                  and secure payment processing.
+                  <a
+                    href="https://ethglobal.com/showcase/metatune-muizg"
+                    className="font-bold text-gray-900 underline hover:text-blue-700"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    MetaMask - Best Mobile-ready Dapp
+                  </a>
+                  <br />
+                  <br />
+                  Meta Tune is an Artist to Fans Engagement Platform to help
+                  with discoverability of upcoming artists
                 </Typography>
 
                 <div className="mb-2 flex h-[50px] justify-start">
@@ -132,7 +154,7 @@ export function Projects() {
               </div>
 
               <a
-                href="https://github.com/Sterioboy/ecommerce-graphQL-nextJS"
+                href="https://ethglobal.com/showcase/metatune-muizg"
                 className="text-sm mt-3 w-[200px]"
                 target="_blank"
                 rel="noopener"
@@ -141,7 +163,7 @@ export function Projects() {
                   type="button"
                   className="flex w-full items-center rounded-lg bg-blue-700 px-5 py-1 font-medium text-white hover:bg-blue-800 focus:outline-none"
                 >
-                  Github
+                  Project
                   <svg
                     aria-hidden="true"
                     className="-mr-1 ml-2 h-2 w-2"
@@ -161,11 +183,13 @@ export function Projects() {
           </div>
 
           <div className="mb-3 max-w-sm rounded-lg border border-gray-200 bg-white shadow lg:mb-0 lg:mr-2">
-            <img
-              className="h-[275px] rounded-t-lg"
-              src="https://res.cloudinary.com/do6yo1hx8/image/upload/h_275/f_auto,q_auto/v1684246186/face2une_x1_ztgn3s.jpg"
-              alt="Face2Une CRM project"
-            />
+            <div className="flex h-[275px] items-center justify-center">
+              <img
+                className="h-[275px] rounded-t-lg object-cover object-center"
+                src={hundred2one.src}
+                alt="Hundred-2-One"
+              />
+            </div>
 
             <div className="flex h-[460px] flex-col justify-between p-3">
               <div>
@@ -174,16 +198,26 @@ export function Projects() {
                   size="md"
                   className="mb-[12px] text-start font-bold text-gray-900"
                 >
-                  Face2une CRM
+                  Hundred-2-One
                 </Typography>
                 <Typography
                   as="p"
                   size="base"
                   className="mb-2 font-light text-gray-500"
                 >
-                  Scalable CRM system, designed to manage customer interactions
-                  effectively, facilitate data analysis, and promote business
-                  growth through improved customer relationship management.
+                  <a
+                    href="https://ethglobal.com/showcase/hundred2one-7gznc"
+                    className="font-bold text-gray-900 underline hover:text-blue-700"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    Flow Foundation - Most Killer App Potential 2nd place
+                  </a>
+                  <br />
+                  <br />
+                  Swipe to vote on questions, predict vote percentages, and
+                  create shareable opinion graphics—all within a Telegram mini
+                  app. Make opinions interactive and community-driven!
                 </Typography>
 
                 <div className="mb-2 flex h-[50px] justify-start">
@@ -198,7 +232,7 @@ export function Projects() {
               </div>
 
               <a
-                href="https://facestellar.com/"
+                href="https://ethglobal.com/showcase/hundred2one-7gznc"
                 className="text-sm mt-3 w-[200px]"
                 target="_blank"
                 rel="noopener"
@@ -207,77 +241,7 @@ export function Projects() {
                   type="button"
                   className="flex w-full items-center rounded-lg bg-blue-700 px-5 py-1 font-medium text-white hover:bg-blue-800 focus:outline-none"
                 >
-                  Website
-                  <svg
-                    aria-hidden="true"
-                    className="-mr-1 ml-2 h-2 w-2"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clipRule="evenodd"
-                    ></path>
-                  </svg>
-                </button>
-              </a>
-            </div>
-          </div>
-
-          <div className="max-w-sm rounded-lg border border-gray-200 bg-white shadow">
-            <img
-              className="h-[275px] rounded-t-lg"
-              src="https://res.cloudinary.com/do6yo1hx8/image/upload/h_275/f_auto,q_auto/v1684246299/student-invest_x1_raf30c.jpg"
-              alt="Student Invest project"
-            />
-
-            <div className="flex h-[460px] flex-col justify-between p-3">
-              <div>
-                <Typography
-                  as="h3"
-                  size="md"
-                  className="mb-[12px] text-start font-bold text-gray-900"
-                >
-                  Student Invest
-                </Typography>
-                <Typography
-                  as="p"
-                  size="base"
-                  className="mb-2 font-light text-gray-500"
-                >
-                  Social network for students and investors. Connects creative
-                  minds with Angel investors, that help them unlock their
-                  potential.
-                </Typography>
-
-                <div className="mb-2 flex h-[50px] justify-start">
-                  <img
-                    src={expressIcon.src}
-                    alt="Express Icon"
-                    className="mr-2"
-                  />
-                  <img
-                    src={postgresIcon.src}
-                    alt="PostgreSQL Icon"
-                    className="mr-2"
-                  />
-                  <img src={reactIcon.src} alt="React Icon" />
-                </div>
-              </div>
-
-              <a
-                href="https://github.com/Sterioboy/Student-Invest"
-                className="text-sm mt-3 w-[200px]"
-                target="_blank"
-                rel="noopener"
-              >
-                <button
-                  type="button"
-                  className="flex w-full items-center rounded-lg bg-blue-700 px-5 py-1 font-medium text-white hover:bg-blue-800 focus:outline-none"
-                >
-                  GitHub
+                  Project
                   <svg
                     aria-hidden="true"
                     className="-mr-1 ml-2 h-2 w-2"
